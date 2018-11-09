@@ -1,9 +1,29 @@
 # NOTE: For role opsta.host_preparation
 # YOU MUST HAVE ansible_port variable OR ELSE REBOOT TASK WON'T WORK
 
-[production-example]
-prod-01.example.com ansible_user=ubuntu ansible_host=10.10.10.11 ansible_port=22
-prod-02.example.com ansible_user=ubuntu ansible_host=10.10.10.12 ansible_port=22
+#[production-example]
+#prod-01.example.com ansible_user=ubuntu ansible_host=10.10.10.11 ansible_port=22
+#prod-02.example.com ansible_user=ubuntu ansible_host=10.10.10.12 ansible_port=22
 
 [preproduction-example]
-pre-01.example.com ansible_user=ubuntu ansible_host=10.10.10.21 ansible_port=22
+#hq-glo-k8s-master01.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.24 ansible_port=22
+#hq-glo-k8s-master02.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.25 ansible_port=22
+#hq-glo-k8s-master03.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.26 ansible_port=22
+#hq-k8snode01.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.27 ansible_port=22
+#hq-k8snode02.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.28 ansible_port=22
+#hq-k8snode03.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.29 ansible_port=22
+#hq-gitlab01.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.30 ansible_port=22
+hq-jenkinsmaster01.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.31 ansible_port=22
+#hq-jenkinsslave01.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.32 ansible_port=22
+#hq-sonarqube01.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.33 ansible_port=22
+#hq-nexus01.glo.or.th ansible_user=ubuntu ansible_host=10.18.20.34 ansible_port=22
+
+
+#glo-gitlab ansible_user=ubuntu ansible_host=10.88.88.67 ansible_port=22
+#glo-nexusrepo ansible_user=ubuntu ansible_host=10.88.88.70 ansible_port=22
+#glo-jenkins-master ansible_user=ubuntu ansible_host=10.88.88.68 ansible_port=22
+#glo-jenkins-slave ansible_user=ubuntu ansible_host=10.88.88.69 ansible_port=22
+#glo-glusterfs2-lab ansible_user=ubuntu ansible_host=10.88.88.59 ansible_port=22
+#glo-glusterfs3-lab ansible_user=ubuntu ansible_host=10.88.88.60 ansible_port=22
+#glo-haproxy1-lab ansible_user=ubuntu ansible_host=10.88.88.61 ansible_port=22
+#glo-haproxy2-lab ansible_user=ubuntu ansible_host=10.88.88.62 ansible_port=22

@@ -1,6 +1,6 @@
 ---
 le_domains:
-  - domain: git.example.com
+  - domain: birdwebsite.testhisoka.tk
     method: standalone
-    key_path: /etc/gitlab/ssl/git.example.com.key
-    fullchain_path: /etc/gitlab/ssl/git.example.com.crt
+    key_path: /etc/testansible/ssl/birdwebsite.testhisoka.tk.key
+    fullchain_path: /etc/testansible/ssl/birdwebsite.testhisoka.tk.crt
